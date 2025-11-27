@@ -1,0 +1,23 @@
+# Ignore credential file used at runtime
+/src/credentials.yml
+
+# Data, results and logs
+/data/
+/results/
+/logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Model/artifacts
+*.ckpt
+*.pt
+*.bin
